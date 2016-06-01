@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43107E341CFE206A000541CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107E331CFE206A000541CB /* main.m */; };
+		43107E371CFE206A000541CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107E361CFE206A000541CB /* AppDelegate.m */; };
+		43107E3A1CFE206A000541CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107E391CFE206A000541CB /* ViewController.m */; };
+		43107E3D1CFE206A000541CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43107E3B1CFE206A000541CB /* Main.storyboard */; };
+		43107E3F1CFE206A000541CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43107E3E1CFE206A000541CB /* Assets.xcassets */; };
+		43107E421CFE206A000541CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43107E401CFE206A000541CB /* LaunchScreen.storyboard */; };
+		43107E4B1CFE21B3000541CB /* GuessWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107E4A1CFE21B3000541CB /* GuessWord.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43107E2F1CFE206A000541CB /* HangmanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangmanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43107E331CFE206A000541CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43107E351CFE206A000541CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43107E361CFE206A000541CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43107E381CFE206A000541CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43107E391CFE206A000541CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43107E3C1CFE206A000541CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43107E3E1CFE206A000541CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43107E411CFE206A000541CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43107E431CFE206A000541CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43107E491CFE21B3000541CB /* GuessWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessWord.h; sourceTree = "<group>"; };
+		43107E4A1CFE21B3000541CB /* GuessWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessWord.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43107E2C1CFE206A000541CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43107E261CFE206A000541CB = {
+			isa = PBXGroup;
+			children = (
+				43107E311CFE206A000541CB /* HangmanApp */,
+				43107E301CFE206A000541CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43107E301CFE206A000541CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43107E2F1CFE206A000541CB /* HangmanApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43107E311CFE206A000541CB /* HangmanApp */ = {
+			isa = PBXGroup;
+			children = (
+				43107E351CFE206A000541CB /* AppDelegate.h */,
+				43107E361CFE206A000541CB /* AppDelegate.m */,
+				43107E381CFE206A000541CB /* ViewController.h */,
+				43107E391CFE206A000541CB /* ViewController.m */,
+				43107E491CFE21B3000541CB /* GuessWord.h */,
+				43107E4A1CFE21B3000541CB /* GuessWord.m */,
+				43107E3B1CFE206A000541CB /* Main.storyboard */,
+				43107E3E1CFE206A000541CB /* Assets.xcassets */,
+				43107E401CFE206A000541CB /* LaunchScreen.storyboard */,
+				43107E431CFE206A000541CB /* Info.plist */,
+				43107E321CFE206A000541CB /* Supporting Files */,
+			);
+			path = HangmanApp;
+			sourceTree = "<group>";
+		};
+		43107E321CFE206A000541CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43107E331CFE206A000541CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43107E2E1CFE206A000541CB /* HangmanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43107E461CFE206A000541CB /* Build configuration list for PBXNativeTarget "HangmanApp" */;
+			buildPhases = (
+				43107E2B1CFE206A000541CB /* Sources */,
+				43107E2C1CFE206A000541CB /* Frameworks */,
+				43107E2D1CFE206A000541CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HangmanApp;
+			productName = HangmanApp;
+			productReference = 43107E2F1CFE206A000541CB /* HangmanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43107E271CFE206A000541CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DetroitLabs;
+				TargetAttributes = {
+					43107E2E1CFE206A000541CB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43107E2A1CFE206A000541CB /* Build configuration list for PBXProject "HangmanApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43107E261CFE206A000541CB;
+			productRefGroup = 43107E301CFE206A000541CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43107E2E1CFE206A000541CB /* HangmanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43107E2D1CFE206A000541CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43107E421CFE206A000541CB /* LaunchScreen.storyboard in Resources */,
+				43107E3F1CFE206A000541CB /* Assets.xcassets in Resources */,
+				43107E3D1CFE206A000541CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43107E2B1CFE206A000541CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43107E3A1CFE206A000541CB /* ViewController.m in Sources */,
+				43107E4B1CFE21B3000541CB /* GuessWord.m in Sources */,
+				43107E371CFE206A000541CB /* AppDelegate.m in Sources */,
+				43107E341CFE206A000541CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43107E3B1CFE206A000541CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43107E3C1CFE206A000541CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43107E401CFE206A000541CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43107E411CFE206A000541CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43107E441CFE206A000541CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43107E451CFE206A000541CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43107E471CFE206A000541CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HangmanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HangmanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43107E481CFE206A000541CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HangmanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HangmanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43107E2A1CFE206A000541CB /* Build configuration list for PBXProject "HangmanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43107E441CFE206A000541CB /* Debug */,
+				43107E451CFE206A000541CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43107E461CFE206A000541CB /* Build configuration list for PBXNativeTarget "HangmanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43107E471CFE206A000541CB /* Debug */,
+				43107E481CFE206A000541CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43107E271CFE206A000541CB /* Project object */;
+}
